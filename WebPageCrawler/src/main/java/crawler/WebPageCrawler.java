@@ -9,6 +9,11 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 
+/**
+ * @author jssjp
+ * Make the contents of url into a file.
+ *2018. 6. 20.
+ */
 public class WebPageCrawler {
 
 	public static void main(String[] args) throws crawler.ArgsErrorException, ConnentException {

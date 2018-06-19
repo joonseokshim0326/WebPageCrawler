@@ -8,8 +8,17 @@ import java.io.OutputStream;
 import java.net.URL;
 import java.net.URLConnection;
 
+/**
+ * @author jssjp
+ *2018. 6. 20.
+ * manage url connection
+ */
 public class HttpConnentCont {
 
+	/**
+	 * @param address
+	 * @return
+	 */
 	public static URLConnection connect(String address) {
 		URLConnection conn = null;
 		try {

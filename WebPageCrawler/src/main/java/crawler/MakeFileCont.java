@@ -7,8 +7,18 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URLConnection;
 
+/**
+ * @author jssjp
+ * 2018. 6. 20.
+ * Create a html file.
+ */
 public class MakeFileCont {
 
+	/**
+	 * @param conn
+	 * @param address
+	 * @param savePath
+	 */
 	public static void makeFile(URLConnection conn, String address, String savePath) {
 		OutputStream out = null;
 		InputStream in = null;
