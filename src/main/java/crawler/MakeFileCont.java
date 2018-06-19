@@ -32,7 +32,7 @@ public class MakeFileCont {
 				out.write(buffer, 0, numRead);
 				numWritten += numRead;
 			}
-			System.out.println(savePath + "\t" + numWritten);
+			System.out.println(savePath + "\\" + "download.html" + "\t" + numWritten);
 		} catch (Exception exception) {
 			exception.printStackTrace();
 		} finally {
